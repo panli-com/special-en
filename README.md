@@ -1,4 +1,4 @@
-## special 专题页
+## special 英文专题页 
 
 src 开发环境
 
@@ -10,7 +10,7 @@ dist 生产环境
 
 ## Demo
 
-[demo](http://panli-com.github.io/special)
+[demo](http://panli-com.github.io/special-en)
 
 
 专题页目录结构如下
