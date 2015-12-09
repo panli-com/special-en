@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 
-var day = '20151202';
+var day = '20151209',
+    cssId = '69';
 
 // 引入组件
 var sass = require('gulp-sass'),
@@ -14,21 +15,13 @@ var sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     livereload = require('gulp-livereload'),
     zip = require('gulp-zip');
-    // port = process.env.port || 5000;
+
 
 
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 
 
-// live reload
-// gulp.task('connect',function(){
-//     connect.server({
-//         // root:'./',
-//         port: port,
-//         livereload: true,
-//     })
-// });
 
 
 //编译Sass，Autoprefix及缩小化
@@ -37,16 +30,17 @@ gulp.task('sass', function() {
         .pipe(sass({ style: 'expanded' }))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
         .pipe(gulp.dest('./'+ day +'/build/css'))
-        .pipe(rename({suffix: '.min'}))
+        .pipe(rename(cssId+'.css'))
         .pipe(minifycss())
         .pipe(gulp.dest('./'+ day +'/build'))
+        
         .pipe(reload({stream: true}))
         .pipe(notify({ message: 'Styles  task complete' }));
 });
 
 
 gulp.task('edm', function() {
-    return gulp.src('./'+ day +'/edm//edm.scss')
+    return gulp.src('./'+ day +'/src/edm/edm.scss')
         .pipe(sass({ style: 'expanded' }))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
         .pipe(gulp.dest('./'+ day +'/edm/'))
@@ -147,7 +141,7 @@ gulp.task('dev', ['sass'], function() {
         server: './'+day+'/'
     });
     // 看守 edm.scss 档
-    gulp.watch('./'+ day +'/edm/*.scss', ['edm']);
+    gulp.watch('./'+ day +'/src/edm/*.scss', ['edm']);
     // 看守.scss 档
     gulp.watch('./'+ day +'/src/scss/*.scss', ['sass']);
     gulp.watch('./home/scss/*.scss', ['home']);
