@@ -1,0 +1,132 @@
+.floor-wrap{
+	background: $bg;
+}
+.floor-main{
+	.floor-title{
+		height: 84px;
+		background: url(./images/floor-title-bg.png) no-repeat;
+		position: relative;
+		text-align: center;
+	}
+	.floor-1{
+		.title-bg{
+			display: inline-block;
+			height: 34px;
+			width: 139px;
+			background: url(./images/floor-title-1.png) no-repeat;
+		}
+	}
+	.floor-2{
+		.title-bg{
+			display: inline-block;
+			height: 34px;
+			width: 170px;
+			background: url(./images/floor-title-2.png) no-repeat;
+		}
+	}
+	.floor-3{
+		.title-bg{
+			display: inline-block;
+			height: 34px;
+			width: 170px;
+			background: url(./images/floor-title-3.png) no-repeat;
+		}
+	}
+	.floor-4{
+		.title-bg{
+			display: inline-block;
+			height: 34px;
+			width: 139px;
+			background: url(./images/floor-title-4.png) no-repeat;
+		}
+	}
+	.floor-5{
+		.title-bg{
+			display: inline-block;
+			height: 34px;
+			width: 206px;
+			background: url(./images/floor-title-5.png) no-repeat;
+		}
+	}
+	.z-more{
+		position: absolute;
+		right: 42px;
+		top: 28px;
+		width: 68px;
+		height: 18px;
+		display: block;
+		background: url(./images/more.png) no-repeat;
+		transition: width .2s;
+		-moz-transition: width .2s;	
+		-webkit-transition: width .2s;	
+		-o-transition: width .2s;
+		&:hover{
+			width: 70px;
+			  -webkit-animation-name: shake;
+          			  animation-name: shake;
+		}
+	}
+	.floor-box{
+		position: relative;
+		padding-bottom: 20px;
+		.floor-title{			
+			z-index: 2;
+		}
+	}
+	.z-pro-wrap{
+		width: (972px-8);
+		height: 626px;
+		background-color: #fd6343;
+		border:8px solid #FFF;
+		position: relative;
+		top: -36px;
+		.z-pro-u{
+			position: relative;
+			padding-top: 30px;
+			li{
+				float: left;
+				width: 222px;
+				margin-left: 15px;
+				margin-bottom: 15px;
+				&:hover{
+					img{
+						transform:scale(1.1);
+						-webkit-transform:scale(1.1);
+						-moz-transform:scale(1.1);
+						-o-transform:scale(1.1);
+						-ms-transform:scale(1.1);
+					}
+				}
+			}
+			a{
+				color:#FFF;
+				text-decoration: none;
+				&:hover{
+					color:#FFF;
+				}
+			}
+		}
+		.thumb{
+			width: 222px;
+			height: 222px;
+			overflow: hidden;
+			img{
+				transition:  .5s;
+				-moz-transition:  .5s;	
+				-webkit-transition:  .5s;	
+				-o-transition:  .5s;
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+		.count{
+			background: #e14423;
+			padding: 10px;
+		}
+	}
+	
+}
+
+
+
+
