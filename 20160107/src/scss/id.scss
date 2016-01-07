@@ -1,0 +1,168 @@
+body {
+	font-size:12px;
+	margin:0;
+	padding:0;
+	font-family:Arial,Verdana,Helvetica,"simsun";
+}
+p,h1,h2,h3,h4,h5,li,ul,dd,dt,dl,form {
+	margin:0;
+	padding:0;
+}
+img {
+	border:none;
+}
+ul li {
+	list-style:none;
+}
+a {
+	color:#333;
+}
+a:hover {
+	color:#FF0000;
+}
+textarea {
+	resize:none;
+}
+input,a {
+	outline:none;
+}
+.span20 {
+	height:20px;
+	line-height:20px;
+	display:block;
+}
+.Panli_overlay {
+	moz-opacity:0.56;
+	/* Moz + FF 透明度20% */
+	opacity:0.56;
+	/*支持CSS3的浏览器（FF 1.5也支持）透明度20%*/
+	filter:alpha(opacity=56);
+	/* IE 透明度20% */
+	position:fixed;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	background:#000;
+	height:100%;
+	width:100%;
+	_position:absolute;
+	z-index:800;
+	display:none;
+}
+body {
+	font-family:'Microsoft YaHei';
+	font-size:12px;
+}
+#frame {
+	width:100%;
+	background-color:#27ccc5;
+	overflow:hidden;
+}
+.header_banner {
+	width:100%;
+	margin:0 auto;
+	height:620px;
+}
+.banner1 {
+	background:url(images/Top_Popular_02.jpg) no-repeat center;
+	height:80px;
+}
+.banner2 {
+	background:url(images/Top_Popular_03.jpg) no-repeat center;
+	height:80px;
+}
+.banner3 {
+	background:url(images/Top_Popular_04.jpg) no-repeat center;
+	height:80px;
+}
+.banner4 {
+	background:url(images/Top_Popular_05.jpg) no-repeat center;
+	height:80px;
+}
+.banner5 {
+	background:url(images/Top_Popular_06.jpg) no-repeat center;
+	height:80px;
+}
+.banner6 {
+	background:url(images/Top_Popular_07.jpg) no-repeat center;
+	height:80px;
+}
+.banner7 {
+	background:url(images/Top_Popular_08.jpg) no-repeat center;
+	height:140px;
+}
+#content_inner {
+	width:960px;
+	margin:0 auto;
+	padding-bottom:20px;
+}
+.For_Women {
+	clear:both;
+	padding-top:10px;
+}
+.Women_title {
+	background:url(images/Top_Popular_11.gif) no-repeat center top;
+	height:115px;
+}
+.Women_more a {
+	float:right;
+	color:#31585e;
+	font-size:16px;
+	text-decoration:none;
+	display:block;
+	padding:80px 10px 0 0;
+}
+.Women_more a:hover {
+	color:#31585e;
+}
+.Women_list{
+	ul{
+		clear: both;
+		overflow: hidden;
+		width: 1000px;
+	}
+	li {
+		width:230px;
+		height:286px;
+		margin:0 13px 15px 0;
+		background-color:#2c7371;
+		float:left;
+		display:block;
+	}
+} 
+.pro_Price {
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+	line-height:20px;
+	display:block;
+}
+.pro_Price a {
+	color:#fff;
+	text-decoration:none;
+}
+.pro_Price a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+.Women_list .pro_right {
+	margin:0;
+	float:right;
+	display:block;
+}
+.Men_title {
+	background:url(images/Top_Popular_23.gif) no-repeat center top;
+	height:115px;
+}
+.Children_title {
+	background:url(images/Top_Popular_27.gif) no-repeat center top;
+	height:115px;
+}
+.Others_title {
+	background:url(images/Top_Popular_31.gif) no-repeat center top;
+	height:115px;
+}
+.clear {
+	clear:both;
+}
