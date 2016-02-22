@@ -2,16 +2,21 @@
 
 src 开发环境
 
-dist 生产环境
+build 生产环境
 
 ## install
 
-`npm install --save-dev gulp gulp-browserify gulp-concat gulp-connect gulp-react lodash reactify gulp-sass gulp-jshint gulp-autoprefixer gulp-livereload  gulp-minify-css gulp-uglify gulp-rename browser-sync gulp-notify gulp-zip
+`npm i`
 
 ## Demo
 
 [demo](http://panli-com.github.io/special-en)
 
+
+## 静态路径
+
+
+http://img.panlidns.com/cms/en/special/css/70/
 
 专题页目录结构如下
 ![](./hu.png)`
