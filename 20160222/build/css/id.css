@@ -1,0 +1,238 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial,Verdana,Helvetica,"simsun"; }
+
+p, h1, h2, h3, h4, h5, li, ul, dd, dt, dl, form {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: none; }
+
+ul li {
+  list-style: none; }
+
+a {
+  color: #333; }
+
+a:hover {
+  color: #FF0000; }
+
+textarea {
+  resize: none; }
+
+input, a {
+  outline: none; }
+
+.span20 {
+  height: 20px;
+  line-height: 20px;
+  display: block; }
+
+.left {
+  float: left;
+  display: block; }
+
+.right {
+  float: right;
+  display: block; }
+
+.clear {
+  clear: both; }
+
+.Panli_overlay {
+  moz-opacity: 0.56;
+  /* Moz + FF 透明度20% */
+  opacity: 0.56;
+  /*支持CSS3的浏览器（FF 1.5也支持）透明度20%*/
+  filter: alpha(opacity=56);
+  /* IE 透明度20% */
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  _position: absolute;
+  z-index: 800;
+  display: none; }
+
+body {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px; }
+
+#frame {
+  width: 100%;
+  background-color: #f4c42d;
+  overflow: hidden; }
+
+.header_banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 640px; }
+
+.banner1 {
+  background: url(images/Animal_banner_02.gif) no-repeat center;
+  height: 80px; }
+
+.banner2 {
+  background: url(images/Animal_banner_03.jpg) no-repeat center;
+  height: 80px; }
+
+.banner3 {
+  background: url(images/Animal_banner_04.jpg) no-repeat center;
+  height: 80px; }
+
+.banner4 {
+  background: url(images/Animal_banner_05.gif) no-repeat center;
+  height: 80px; }
+
+.banner5 {
+  background: url(images/Animal_banner_06.gif) no-repeat center;
+  height: 80px; }
+
+.banner6 {
+  background: url(images/Animal_banner_07.gif) no-repeat center;
+  height: 80px; }
+
+.banner7 {
+  background: url(images/Animal_banner_08.gif) no-repeat center;
+  height: 80px; }
+
+.banner8 {
+  background: url(images/Animal_banner_09.gif) no-repeat center;
+  height: 80px; }
+
+#content_inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0 0 0; }
+
+.Cat_content {
+  margin-bottom: 30px;
+  clear: both;
+  overflow: hidden; }
+  .Cat_content .sml {
+    clear: both;
+    overflow: hidden;
+    width: 640px; }
+
+.Cat_title {
+  background: url(images/Animal_Cat.gif) no-repeat center top;
+  height: 66px; }
+
+.Animal_more {
+  width: 100px;
+  height: 25px;
+  position: relative;
+  left: 850px;
+  display: block; }
+
+.Cat_left {
+  float: left;
+  width: 340px; }
+
+.Cat_left li {
+  width: 330px;
+  height: 510px;
+  background-color: #57352b;
+  display: block; }
+
+.Cat_right {
+  float: right;
+  width: 620px; }
+
+.Cat_right li {
+  width: 200px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-color: #57352b;
+  float: left;
+  display: block; }
+
+.pro_Price {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  height: 50px;
+  display: block; }
+
+.pro_Price a {
+  color: #fff;
+  text-decoration: none; }
+
+.pro_Price a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.pro_title {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px;
+  height: 56px;
+  margin-bottom: 10px;
+  display: block; }
+
+.pro_title a {
+  color: #fff;
+  text-decoration: none; }
+
+.pro_title a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.Cat_right .pro_right {
+  margin: 0;
+  float: right;
+  display: block; }
+
+.Dog_title {
+  background: url(images/Animal_Dog.gif) no-repeat center top;
+  height: 75px; }
+
+.Dog_left {
+  float: left;
+  width: 620px; }
+
+.Dog_left li {
+  width: 200px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-color: #57352b;
+  float: left;
+  display: block; }
+
+.Dog_right {
+  float: right;
+  width: 330px; }
+
+.Dog_right li {
+  width: 330px;
+  height: 510px;
+  background-color: #57352b;
+  display: block; }
+
+.Dog_left .pro_right {
+  margin: 0;
+  float: left;
+  display: block; }
+
+.Rabbit_title {
+  background: url(images/Animal_Rabbit.gif) no-repeat center top;
+  height: 66px; }
+
+.Duck_title {
+  background: url(images/Animal_Duck.gif) no-repeat center top;
+  height: 66px; }
+
+.Others_title {
+  background: url(images/Animal_Others.gif) no-repeat center top;
+  height: 66px; }
