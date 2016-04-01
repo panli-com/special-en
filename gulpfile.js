@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 
-var day = '20160222',
-    cssId = '71';
+var day = '20160401',
+    cssId = '72';
 
 // 引入组件
 var sass = require('gulp-sass'),
